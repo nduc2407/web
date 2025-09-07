@@ -1,0 +1,98 @@
+/* Header tổng thể */
+.header .container {
+   background-color:burlywood;
+    max-width: 2000px;
+    margin-bottom: 500px;
+    padding: 10px 20px;
+    margin-top: -10px;
+    justify-content: space-between;
+}
+
+
+/* Logo */
+.logo h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+}
+.abc{
+    
+    margin-top: -45px;
+    display: flex;
+    gap: 5px;
+}
+/* Search bar */
+.search {
+    
+    display: flex;
+    margin-left: 300px;
+    gap: 5px;
+}
+
+.search input {
+    padding: 8px 12px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search button {
+
+    padding: 8px 12px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #0056b3;
+}
+
+/* Thanh menu + login */
+
+/* Nav menu */
+.nav ul {
+    
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+ .nav{
+    justify-content: center;
+    margin-top: 15px;
+ }
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.nav ul li a:hover {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+/* User buttons */
+.hdong.user {
+    display: flex;
+    gap: 10px;
+}
+.user-buttons{   
+   display: flex;
+   gap: 5px;
+   margin-top: 5px;
+}
+
+
+body {
+  background-image: url("../img/bg.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
